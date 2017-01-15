@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/create_new_order_item_ll"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:background="@color/colorPrimaryLight"
+    android:orientation="horizontal"
+    android:weightSum="12"
+    tools:context="com.crucifix.software.coffeeshop.NewOrder">
+
+    <TextView
+        android:id="@+id/beverage_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="8"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:focusable="true"
+        android:textSize="@dimen/app_text_size_large"
+        android:textStyle="italic"/>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+    <EditText
+        android:id="@+id/beverage_quantity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:inputType="number"
+        android:maxEms="2"
+        android:maxLength="2"
+        android:minEms="2"/>
+
+</LinearLayout>

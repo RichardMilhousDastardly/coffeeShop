@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">KEKHANE</string>
+
+    <string name="beverage_name_literal">Beverage</string>
+
+    <string name="create_order">Create Order</string>
+    <string name="same_again">Same Again</string>
+
+    <string name="beverage_quantity_literal">Quantity</string>
+    <string name="beverage_price_literal">Price</string>
+    <string name="beverage_total_cost_literal">Order Total</string>
+
+    <string name="info_wifi_title">Device Offline</string>
+    <string name="info_wifi_message">Please enable Wi-Fi or Mobile data to allow the creation of Beverage Orders.</string>
+
+    <string name="firebase_data_title">Data Unavailable</string>
+    <string name="firebase_data_message">Sorry, your Bevearge data is unavailable\nPlease Try again.</string>
+
+    <string name="empty_order_title">Empty Order</string>
+    <string name="empty_order_message">You cannot submit an empty beverage order\nPlease enter the beverage quantities required.</string>
+
+    <string name="order_saved_title">Archive Order</string>
+    <string name="order_saved_message">Your order has been successfully archived.</string>
+
+    <string name="order_submit_title">Submit Order</string>
+    <string name="order_submit_message">Your order has been successfully submitted.</string>
+
+    <string name="no_archive_orders_title">Archived Orders</string>
+    <string name="no_archive_orders_message">No archived orders have been found.</string>
+
+    <string name="too_many_beverage_options_title">Too Many Options</string>
+    <string name="too_many_beverage_options_message_start">You have selected\u0020</string>
+    <plurals name="too_many_beverage_options">
+        <item quantity="one">\u0020option</item>
+        <item quantity="other">\u0020options</item>
+    </plurals>
+    <string name="too_many_beverage_options_message_middle">,\nwhere only\u0020</string>
+    <string name="too_many_beverage_options_message_end">\u0020are allowed.\nAll selections have been removed!</string>
+
+
+</resources>
